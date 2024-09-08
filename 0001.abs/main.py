@@ -7,7 +7,9 @@ def main():
     # abs関数は引数が浮動小数点数の場合も使える
     print(abs(4.5))
     print(abs(-4.5))
-    print(abs(0))
+    
+    # abs関数は引数が複素数の場合も使える
+    print(abs(complex(3, 4)))
     
     # abs関数が定義されたクラスの場合、__abs__関数が呼び出される
     meter = Meter(7)
